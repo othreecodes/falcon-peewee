@@ -1,0 +1,8 @@
+black==18.9b0
+falcon==1.4.1
+gunicorn==19.9.0
+marshmallow==2.16.0
+Marshmallow-Peewee==2.0.0
+peewee==3.7.1
+peewee-migrate==1.1.3
+pytest==3.9.1

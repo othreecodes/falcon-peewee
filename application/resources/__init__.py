@@ -75,5 +75,10 @@ class PeeweeResource(BaseResource):
     model = None
 
     def on_get(self, request, response, pk=None):
+        response.body = json.dumps({
+            "pk":pk
+        })
+        pass
+        # instance = self.fetch(pk)
 
-        instance = self.fetch(pk)
+
