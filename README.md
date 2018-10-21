@@ -11,3 +11,6 @@ $ pip install -r requirements.txt
 $ python app.py # Run dev server  or with gunicorn -> $ gunicorn config:application --reload
 
 ```
+
+
+## I Don't like Falcon's routing mechanism. I would not be continuing with this.

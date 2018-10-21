@@ -79,6 +79,8 @@ class PeeweeResource(BaseResource):
             "pk":pk
         })
         pass
-        # instance = self.fetch(pk)
-
+    
+    def on_post(self,request,response):
+        pass
+        
 
